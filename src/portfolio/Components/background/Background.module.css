@@ -1,0 +1,11 @@
+/* Background.module.css */
+.container {
+  position: fixed; /* or absolute if you don't want it to stick during scroll */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* behind the Navbar and other content */
+  pointer-events: none; /* so user can click through it */
+  background-color: black;
+}

@@ -1,0 +1,38 @@
+/* Navbar.module.css */
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #111; /* or transparent if desired */
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* optional for nice effect */
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.navList {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 30px;
+  font-style: italic;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #93c5fd;
+}

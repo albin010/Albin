@@ -1,0 +1,79 @@
+.productcontainer {
+    margin-bottom: 120px;
+  /* If your navbar height is 70px */
+  padding-top: 50px; /* Add this */
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: rgba(0, 0, 0, 0.716);
+  text-align: center;
+  min-height: 100vh;
+  color: white;
+  
+}
+.h111{
+    margin-top: 100px;
+}
+
+/* Grid layout for cards */
+.projectsGrid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+/* Project Card Styling */
+.projectCard {
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 20px;
+  width: 300px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.projectImage {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.projectTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.techStack {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.projectButtons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.projectButton {
+  padding: 10px 20px;
+  border: 2px solid #000;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.projectButton:hover {
+  background: #000;
+  color: #fff;
+}
